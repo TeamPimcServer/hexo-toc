@@ -2,7 +2,6 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/hexo-toc/blob/master/LICENSE)
 
-[![npm:](https://img.shields.io/npm/v/hexo-toc.svg?style=flat-square)](https://www.npmjs.com/packages/hexo-toc)
 [![Package Quality](http://npm.packagequality.com/shield/hexo-toc.svg)](http://packagequality.com/#?package=hexo-toc)
 
 > Insert a markdown TOC(Table Of Content) before posts be rendered.
@@ -14,10 +13,19 @@ All you need to do is placing a placeholder(`<!-- toc -->`) in your post when an
 **Note:** this plugin will not mangle your posts(markdown files), so you can use it bold.
 
 
+## CHANGE
+
+- CHANGE README.md
+- CHANGE package.json
+
 ## Install
 
-```node
-npm install hexo-toc --save
+```shell
+#npm
+npm install @teampimcserver/hexo-toc --save
+
+#yarn
+yarn add @teampimcserver/hexo-toc
 ```
 
 ## Options
